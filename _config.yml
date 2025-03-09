@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Athens, Greece"
-  email            :
+  email            : "nikolas61965@gmail.com"
   links:
     - label: "nikolas61965@gmail.com"
       icon: "fas fa-fw fa-envelope-square"

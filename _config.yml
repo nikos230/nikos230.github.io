@@ -329,7 +329,44 @@ defaults:
       path: "/aboutme/"
       type: pages
     values:
-      layout: home
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+  # _pages/cv.md
+  - scope:
+      path: "/cv/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true     
+  
+  # _pages/diploma_thesis.md
+  - scope:
+      path: "/diploma_thesis/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true    
+
+
+   # _pages/geoinformatics_projects.md
+  - scope:
+      path: "/geoinformatics_projects/"
+      type: pages
+    values:
+      layout: single
       author_profile: true
       read_time: true
       comments: # true

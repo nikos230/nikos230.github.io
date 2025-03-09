@@ -326,7 +326,7 @@ defaults:
 
   # _pages
   - scope:
-      path: ""
+      path: "_pages/aboutme.md"
       type: posts
     values:
       layout: single

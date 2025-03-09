@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About me"
-    url: 
+    url: "_posts/test.md"
   - title: "CV"
     url:
   - title: "Diploma Thesis"

@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Nikolas Anastasiou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Surveying and Geoinformatics Engineering"
   location         : "Athens, Greece"
   email            : "nikolas61965@gmail.com"
   links:
@@ -124,7 +124,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "nikos230.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

@@ -8,18 +8,21 @@ toc: true
 layout: page
 ---
 
-<h2 style="border-bottom: 2px solid black;">Education</h2>
+<div style="max-width: 600px; margin: 0 auto; text-align: center;">
+    <h2 style="border-bottom: 2px solid black;">Education</h2>
 
-<p><strong>Integrated Master, National Technical University of Athens (NTUA)</strong> 
-   <span style="float: right;">2020 – Current</span></p>
-<p>School of Rural, Surveying and Geoinformatics Engineering</p>
+    <p><strong>Integrated Master, National Technical University of Athens (NTUA)</strong><br>
+    <span>2020 – Current</span></p>
+    <p>School of Rural, Surveying and Geoinformatics Engineering</p>
 
-<ul>
-    <li><strong>Diploma Thesis:</strong> <em>Prediction of Wildfire Burned Area using Deep Learning</em></li>
-    <p>Using the <strong>mesogeos</strong> Dataset and training Deep Learning Models, such as UNet and Vision Transformers, 
-    a prediction of the final burned area is made for Wild Fire events. Dataset consists of 28 Remote Sensing variables, 
-    and Explainable AI is used to collect data for understanding Wild Fires.</p>
+    <ul style="list-style: none; padding: 0;">
+        <li><strong>Diploma Thesis:</strong> <em>Prediction of Wildfire Burned Area using Deep Learning</em></li>
+        <p>Using the <strong>mesogeos</strong> Dataset and training Deep Learning Models, such as UNet and Vision Transformers, 
+        a prediction of the final burned area is made for Wild Fire events. Dataset consists of 28 Remote Sensing variables, 
+        and Explainable AI is used to collect data for understanding Wild Fires.</p>
 
-    <li><strong>Prizes:</strong> Professor Ch. Papakyriakopoulou Award, for the academic year 2021-2022</li>
-</ul>
+        <li><strong>Prizes:</strong> Professor Ch. Papakyriakopoulou Award, for the academic year 2021-2022</li>
+    </ul>
+</div>
+
 

@@ -15,7 +15,7 @@ layout: page
         <strong>Title: <em>Wildfire Spread Burned Area Prediction using Deep Learning</em></strong>
     </p>
 
-    <p style="text-align: left; margin-top: 10px;">
+    <p style="text-align: justify; margin-top: 10px;">
         This project aims to predict final burned area from a wildfire. Using a spatial and temporal dataset with 28 remote sensing variables in 64x64km patches where each pixel has a 1x1km resolution and 1-day temporal resolution. 
         Deep Learning Models are made in Pytorch. Models are based on UNet2D and UNet3D. A baseline model is trained with only 1 day which consists of 28 variables and the burned area mask. 
         A UNet2D model is trained using 10 days of spatial and temporal data, each sample having 5 days before the fire and 5 days after the fire, totaling 10 days. 

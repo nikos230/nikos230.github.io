@@ -5,7 +5,7 @@ main:
   - title: "CV"
     url: "/cv/"
   - title: "Diploma Thesis"
-    url: "diploma_thesis"
+    url: "/diploma_thesis/"
   - title: "Geoinformatics Projects"
-    url: "geoinformatics_projects"
+    url: "/geoinformatics_projects/"
 

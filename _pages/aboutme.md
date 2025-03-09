@@ -1,5 +1,5 @@
 ---
-permalink: /_pages/adoutme.md
+permalink: /_pages/aboutme.md
 title: "About"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 

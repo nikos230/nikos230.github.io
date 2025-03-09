@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About me"
-    url: "_pages/aboutme.md"
+    url: "/aboutme/"
   - title: "CV"
-    url:
+    url: "/cv/"
   - title: "Diploma Thesis"
-    url:
+    url: "diploma_thesis"
   - title: "Geoinformatics Projects"
-    url:    
+    url: "geoinformatics_projects"
 

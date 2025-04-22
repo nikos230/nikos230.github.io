@@ -12,11 +12,21 @@ layout: page
     <h2 style="border-bottom: 2px solid black; margin-bottom: 5px;">Diploma (Integrated Master) Thesis</h2> <!-- Reduced bottom margin -->
 
     <p style="margin-top: 10; margin-bottom: 5px; text-align: left;">
-        <strong>Title: <em>Wildfire Spread Burned Area Prediction using Deep Learning</em></strong>
+        <strong>Title: <em>Data-driven Wildfire Spread Prediction using Deep Learning</em></strong>
     </p>
 
     <p style="text-align: justify; margin-top: 10px;">
-        This project aims to predict final burned area from a wildfire. Using a spatial and temporal dataset with 28 remote sensing variables in 64x64km patches where each pixel has a 1x1km resolution and 1-day temporal resolution. 
+        This project aims to predict final burned area from a wildfire as it is essential for effective risk management, emergency response, and strategic planning. 
+        This theesis approachs wildfire spread prediction as a machine learning task, utilizing historical Earth observation data from 2006 to 2022 to estimate the 
+        final burned area resulting from wildfire events. To that end a spatio-temporal dataset is created consisting of remote sensing data, including meteorological observations, 
+        vegetation maps, land cover, topography, and thermal anomalies. Implementing a variety of deep learning models trained on different temporal windows to capture the spatio-temporal 
+        context of fire spread, and compared them to a baseline model trained only on ignition-day data. Findings suiggest that incorporating forecast days into the models enables more accurate 
+        predictions, with the best-performing model achieving an average F1 score of 57.2% and an Intersection over Union of 41.9%. Add data and models are open-source.
+    </p>
+      </p>
+        <strong>Dataset</strong>
+
+      Using a spatio-temporal dataset with 28 remote sensing variables in 64x64km patches where each pixel has a 1x1km resolution and 1-day temporal resolution. 
         Deep Learning Models are made in Pytorch. Models are based on UNet2D and UNet3D. A baseline model is trained with only 1 day which consists of 28 variables and the burned area mask. 
         A UNet2D model is trained using 10 days of spatial and temporal data, each sample having 5 days before the fire and 5 days after the fire, totaling 10 days. 
         Finally, a UNet3D model is trained with the key difference being that for every feature map UNet3D generates, data from 1 day before and 1 day after are used in combination with the current day the model is processing. 

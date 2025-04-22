@@ -20,29 +20,10 @@ layout: page
         This theesis approachs wildfire spread prediction as a machine learning task, utilizing historical Earth observation data from 2006 to 2022 to estimate the 
         final burned area resulting from wildfire events. To that end a spatio-temporal dataset is created consisting of remote sensing data, including meteorological observations, 
         vegetation maps, land cover, topography, and thermal anomalies. Implementing a variety of deep learning models trained on different temporal windows to capture the spatio-temporal 
-        context of fire spread, and compared them to a baseline model trained only on ignition-day data. Findings suiggest that incorporating forecast days into the models enables more accurate 
+        context of fire spread, and compared them to a baseline model trained only on ignition-day data. Findings suggest that incorporating forecast days into the models enables more accurate 
         predictions, with the best-performing model achieving an average F1 score of 57.2% and an Intersection over Union of 41.9%. Add data and models are open-source.
     </p>
       </p>
-        <h2 style="border-bottom: 2px solid black; margin-bottom: 5px;">Dataset</h2>
-        A spatio-temporal dataset with 28 remote sensing variables is used. For each fire event in the Dataset, a patch of 64 × 64 pixels
-        is extracted, initially centered around the ignition point. A small random spatial offset is applied to ensure that the burned area 
-        is not always located at the exact center of the patch. All variables are cropped to this spatial extent (64 x 64 pixel), covering a temporal 
-        window from five days before to five days after the ignition day. As a result, each sample forms a cube with dimensions (time, height, width) = (10, 64, 64).
-  
-        To see results and project structure overall, visit the 
-        <a href="https://github.com/nikos230/WildFireSpread" target="_blank" rel="noopener noreferrer">GitHub page</a>. 
-        You can download the test results of every model in binary form or shapefile form and open them with QGIS.
-    </p>
-
-     </p>
-        <h2 style="border-bottom: 2px solid black; margin-bottom: 5px;">Deep Learning Models</h2>
-        Three main models are trained and tested, U-Net2D, U-Net3D and a Vision Tranformer. The former it was trained in experimental setup. The U-Net models share the same architecture.
-  
-        <img src="https://raw.githubusercontent.com/nikos230/nikos230.github.io/master/_pages/diploma_figures/nikol7.png" 
-           alt="Long Description Image" 
-           style="width:50%; max-width:1000px; background-color: white; padding: 10px;" />
-
-    </p>  
+ 
 </div>
 

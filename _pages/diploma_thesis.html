@@ -35,16 +35,10 @@ layout: page
         You can download the test results of every model in binary form or shapefile form and open them with QGIS.
     </p>
 
-      <!--  </p>
+     </p>
         <h2 style="border-bottom: 2px solid black; margin-bottom: 5px;">Deep Learning Models</h2>
-        A spatio-temporal dataset with 28 remote sensing variables is used. For each fire event in the Dataset, a patch of 64 × 64 pixels
-        is extracted, initially centered around the ignition point. A small random spatial offset is applied to ensure that the burned area 
-        is not always located at the exact center of the patch. All variables are cropped to this spatial extent (64 x 64 pixel), covering a temporal 
-        window from five days before to five days after the ignition day. As a result, each sample forms a cube with dimensions (time, height, width) = (10, 64, 64).
-  
-        To see results and project structure overall, visit the 
-        <a href="https://github.com/nikos230/WildFireSpread" target="_blank" rel="noopener noreferrer">GitHub page</a>. 
-        You can download the test results of every model in binary form or shapefile form and open them with QGIS.
-    </p>  -->
+        Three main models are trained and tested, U-Net2D, U-Net3D and a Vision Tranformer. The former it was trained in experimental setup. The U-Net models share the same architecture.
+        <img src="https://github.com/nikos230/nikos230.github.io/blob/master/_pages/diploma_figures/nikol7.png" alt="U-Net2D and U-Net3D modified architecture." style="width:100%; max-width:1000px;" />
+    </p>  
 </div>
 

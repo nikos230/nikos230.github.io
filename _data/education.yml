@@ -4,7 +4,8 @@
   year: 2020 &mdash; 2025
   awards:
     - award: Master Thesis
-  summary: As part of this thesis, the models U-Net2D, U-Net3D, and Vision Transformer were trained using remote sensing
+  summary: >
+          As part of this thesis, the models U-Net2D, U-Net3D, and Vision Transformer were trained using remote sensing
           data with the aim of predicting the final burned area from wildfires. The models were implemented using
           the PyTorch framework in a Python environment. The dataset included meteorological variables, NDVI and
           LAI indices, previously burned areas, comprising a total of 28 variables. The models were trained and making

@@ -5,19 +5,21 @@
   awards:
     - award: Master Thesis
   summary: |
-          As part of this thesis, the models U-Net2D, U-Net3D, and Vision Transformer were trained using remote sensing
-          data with the aim of predicting the final burned area from wildfires. The models were implemented using
-          the PyTorch framework in a Python environment. The dataset included meteorological variables, NDVI and
-          LAI indices, previously burned areas, comprising a total of 28 variables. The models were trained and making
-          predictions using data from 5 days before and 5 days after the fire events, given a iginition point. Additionally,
-          data were collected to analyze how forest fires spread and which variables contribute to their propagation, using
-          Explainable AI techniques. Thesis PDF, Slides, data and the developed models are open source and available on  
-    
-          <a href="https://example.com/thesis.pdf" target="_blank" style="color:#1a73e8;">Thesis PDF</a>, 
-          <a href="https://example.com/thesis_slides.pdf" target="_blank" style="color:#1a73e8;">Thesis Slides</a>,  
-          <a href="https://github.com/nikos230/WildFireSpread" target="_blank" style="color:#1a73e8;">Thesis GitHub</a><br>
-
-          Thesis Supervisor: <a href="https://orionlab.space.noa.gr/author/ioannis-papoutsis/" target="_blank" style="color:#1a73e8;">Dr. Ioannis Papoutsis</a><br>
+    <div style="text-align: justify;">
+      As part of this thesis, the models U-Net2D, U-Net3D, and Vision Transformer were trained using remote sensing
+      data with the aim of predicting the final burned area from wildfires. The models were implemented using
+      the PyTorch framework in a Python environment. The dataset included meteorological variables, NDVI and
+      LAI indices, previously burned areas, comprising a total of 28 variables. The models were trained and making
+      predictions using data from 5 days before and 5 days after the fire events, given an ignition point. Additionally,
+      data were collected to analyze how forest fires spread and which variables contribute to their propagation, using
+      Explainable AI techniques. Thesis PDF, Slides, data and the developed models are open source and available on:
+  
+      <a href="https://example.com/thesis.pdf" target="_blank" style="color:#1a73e8;">Thesis PDF</a>, 
+      <a href="https://example.com/thesis_slides.pdf" target="_blank" style="color:#1a73e8;">Thesis Slides</a>,  
+      <a href="https://github.com/nikos230/WildFireSpread" target="_blank" style="color:#1a73e8;">Thesis GitHub</a><br>
+  
+      Thesis Supervisor: <a href="https://orionlab.space.noa.gr/author/ioannis-papoutsis/" target="_blank" style="color:#1a73e8;">Dr. Ioannis Papoutsis</a><br>
+    </div>
 
            
 

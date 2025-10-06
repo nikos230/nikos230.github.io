@@ -11,7 +11,7 @@
           predictions using data from 5 days before and 5 days after the fire events, given a iginition point. Additionally,
           data were collected to analyze how forest fires spread and which variables contribute to their propagation, using
           Explainable AI techniques. Both the data and the developed models are open source and available on GitHub
-          github.com/nikos230/WildFireSpread
+          [github.com/nikos230/WildFireSpread](https://github.com/nikos230/WildFireSpread)
 
           Thesis Supervisor Dr. Ioannis Papoutsis
            

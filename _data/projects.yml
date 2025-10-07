@@ -2,8 +2,8 @@
 
 
 - project: Burned Area mapping from Sentinel-2 Images 
-  # role: Founder & Primary Developer
-  # duration: 2012 &mdash; Present
+  role: ""
+  duration: ""
   url: "https://github.com/nikos230/Burned-Area-Mapping"
   description: |
             <div style="text-align: justify;">
@@ -14,9 +14,15 @@
             available on GitHub
             </div>
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
+
+- project: Burned Area Statictics Calculation
   role: Co-Founder & Organizer
   duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  url: "https://github.com/nikos230/Burned-Area-Statictics-Calculation"
+  description: |
+            <div style="text-align: justify;">
+            Developed in Python, which, by providing a shapefile of the burned area polygon and shapefiles such as NATURA2000,
+            Corine Land Cover, etc., calculates the percentage of each category within the wildfire polygon. In other words,
+            it calculates what percentage of a burned area is NATURA2000 or any other category. Detailed information is
+            available on GitHub
+            </div>

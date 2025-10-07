@@ -1,12 +1,13 @@
 # Skills
 
-- skill: Python
+- skill: Languages
+  description: | 
+                Python, C++
+
+
+- skill: Frameworks
   description: | 
                 Frameworks: Xarray, GeoPandas, Pandas, NumPy, Matplotlib, Pytorch
-
-
-- skill: Communications strategy
-  description: Content and marketing strategy,
 
 
 - skill: Programms

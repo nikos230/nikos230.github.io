@@ -125,7 +125,7 @@
         {% for publications in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h4 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ publications.url }}" itemprop="url">{{publications.publications }}</a>{% else %}{{ publications.publications }}{% endif %}</h4>
+          <h3 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ publications.url }}" itemprop="url">{{publications.publications }}</a>{% else %}{{ publications.publications }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ publications.role }} {{ publications.duration }}</h4>
           <p class="resume-item-copy">{{ publications.description }}</p>
         </div>

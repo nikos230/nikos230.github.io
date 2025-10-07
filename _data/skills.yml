@@ -7,8 +7,8 @@
 
 - skill: Frameworks
   description: | 
-                Frameworks: Xarray, GeoPandas, Pandas, NumPy, Matplotlib, Pytorch
+                Xarray, GeoPandas, Pandas, NumPy, Matplotlib, Pytorch
 
 
 - skill: Programms
-  description: QGIS, ArcGIS, AutoCAD(2D), Git, Latex
+  description: QGIS, ArcGIS, AutoCAD(2D), Git, Latex, VSCode, PyCharm, JupyterNotebook

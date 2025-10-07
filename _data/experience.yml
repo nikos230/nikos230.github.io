@@ -9,7 +9,8 @@
 - company: National Observatory of Athens 
   position: Internship at unit Beyond Earth Observation Center
   duration:  July, 2024 &mdash; September, 2024
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+  summary: | 
+          If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
           <div style="text-align: justify;">
               <ul class="resume-item-list">
                 <li>Mapping of wildfires using Sentinel-2 data in QGIS software</li>

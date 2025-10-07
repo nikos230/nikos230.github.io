@@ -1,13 +1,14 @@
 # publications
 
 
-- publications: test
+- publications: |
+                Nikolaos Anastasiou, Spyros Kondylatos and Ioannis Papoutsis, "Wildfire spread forecasting with Deep Learning"
   role: ""
   duration: ""
-  url: "https://github.com/nikos230/Burned-Area-Mapping"
+  url: "https://arxiv.org/abs/2505.17556"
   description: |
             <div style="text-align: justify;">
-            test
+            Submitted at IEEE Access under review, ArXiv Submission: https://arxiv.org/abs/2505.17556
             </div>
 
 

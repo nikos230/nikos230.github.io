@@ -1,16 +1,20 @@
 # Jobs
 
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
-
+- company: Athena Research Center 
+  position: Collaboration with the PREFERRED project team at ARCHIMEDES Unit
+  duration: April , 2025 &mdash; Present
+  summary: |
+          <div style="text-align: justify;">
+              <ul class="resume-item-list">
+                <li>Comparison and fine-tuning of SatMAE-type foundation models pre-trained on multispectral data for wildfire detection from Seviri satellite data, and comparison with Convolutional Neural Networks</li>
+                <li>Implementation of a Masked Autoencoder model with a Vision Transformer backbone in Python using the PyTorch framework, and pre-training with thermal satellite data</li>
+              </ul>
+            </div>
 
 - company: National Observatory of Athens 
   position: Internship at unit Beyond Earth Observation Center
-  duration:  July, 2024 &mdash; September, 2024
+  duration:  July, 2024 &mdash; Sept, 2024
   summary: | 
-          If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
           <div style="text-align: justify;">
               <ul class="resume-item-list">
                 <li>Mapping of wildfires using Sentinel-2 data in QGIS software</li>

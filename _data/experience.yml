@@ -10,12 +10,15 @@
   position: Internship at unit Beyond Earth Observation Center
   duration:  July, 2024 &mdash; September, 2024
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-          <ul class="resume-item-list"><li>Mapping of wildfires using Sentinel-2 data in QGIS software</li>
-                                      <li> Automation of the mapping process utilizing the Frameworks OpenDataCube, GeoPandas, Rasterio, and Xarray in Python</li>
-                                      <li>Automation of the data extraction process from daily fire department reports (from .pdf files to a database) to automatically calculate statistics</li>
-                                      <li>Development of tools in Python to calculate statistics from burned areas, such as land use coverage percentages, NATURA2000 areas, previous burned areas, etc</li>
-                                      <li>Creation of a Machine Learning Dataset for fire risk estimation</li>
-                                      <li>Participation in 2 Copernicus Emergency Management Service (EMS) projects</li>
-          </ul>
+          <div style="text-align: justify;">
+              <ul class="resume-item-list">
+                <li>Mapping of wildfires using Sentinel-2 data in QGIS software</li>
+                <li>Automation of the mapping process utilizing the frameworks OpenDataCube, GeoPandas, Rasterio, and Xarray in Python</li>
+                <li>Automation of the data extraction process from daily fire department reports (from .pdf files to a database) to automatically calculate statistics</li>
+                <li>Development of tools in Python to calculate statistics from burned areas, such as land use coverage percentages, NATURA2000 areas, previous burned areas, etc.</li>
+                <li>Creation of a Machine Learning Dataset for fire risk estimation</li>
+                <li>Participation in two Copernicus Emergency Management Service (EMS) projects</li>
+              </ul>
+            </div>
 
 

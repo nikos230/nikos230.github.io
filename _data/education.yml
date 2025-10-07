@@ -3,7 +3,7 @@
   uni: National Technical University of Athens
   year: 2020 &mdash; 2025
   awards:
-    - award: Master Thesis
+    - award: Dioploma Thesis
   summary: |
     <div style="text-align: justify;">
       As part of this thesis, the models U-Net2D, U-Net3D, and Vision Transformer were trained using remote sensing

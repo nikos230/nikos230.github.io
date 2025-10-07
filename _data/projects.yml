@@ -16,8 +16,8 @@
 
 
 - project: Burned Area Statictics Calculation
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+  role: ""
+  duration: ""
   url: "https://github.com/nikos230/Burned-Area-Statictics-Calculation"
   description: |
             <div style="text-align: justify;">
@@ -26,3 +26,30 @@
             it calculates what percentage of a burned area is NATURA2000 or any other category. Detailed information is
             available on GitHub
             </div>
+
+
+- project: Horizonal Network Geodesy
+  role: ""
+  duration: ""
+  url: "https://github.com/nikos230/Horizonal-Network-Geodesy"
+  description: |
+            <div style="text-align: justify;">
+            A Python script for solving 2D geodetic networks with complex geometry, using as input only the network points.
+            The script solves the network and returns a PDF file with the network’s geometric elements and solution param-
+            eters, as well as a plot of the network’s shape. It is very useful for identifying if a specific point causes poor
+            geometry in the network, thus affecting its accuracy
+            </div>    
+
+
+- project: Elevation Network Geodesy
+  role: ""
+  duration: ""
+  url: "https://github.com/nikos230/Elevation-Network-Geodesy"
+  description: |
+            <div style="text-align: justify;">
+            A Python script for solving a 1D elevation network with input data consisting only of orthometric heights. The
+            script returns a PDF file with the network’s solution parameters and the corrected heights. It is very useful for
+            identifying problematic heights in the network
+            </div>  
+
+            

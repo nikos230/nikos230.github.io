@@ -1,12 +1,18 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+
+- project: Burned Area mapping from Sentinel-2 Images 
+  # role: Founder & Primary Developer
+  # duration: 2012 &mdash; Present
+  url: "https://github.com/nikos230/Burned-Area-Mapping"
+  description: |
+            <div style="text-align: justify;">
+            Developed in Python using frameworks Xarray, GeoPandas, odc, Rasterio, Shapely, etc., which, by providing an
+            area with 4 coordinates and the start date of a wildfire, performs fully automated mapping using Sentinel-2
+            data. The output includes a tiff file with the DNBR index, a shapefile with the wildfire polygon (geometrically
+            corrected), and a shapefile with the classification of the burned area into 4 categories. Detailed information is
+            available on GitHub
+            </div>
 
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group

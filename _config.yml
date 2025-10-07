@@ -23,7 +23,13 @@ resume_contact_address:         "test adress"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I studied ......</p>"
+resume_header_intro: |
+                        "<p> I received my diploma in Rural, Surveying and Geoinformatics Engineering from the National Technical University of Athens in 2025. 
+                          My diploma thesis focused on the development and evaluation of deep learning models for wildfire spread prediction using remote sensing data. 
+                          I completed a three-month internship at the National Observatory of Athens, focusing on Earth observation and wildfire mapping. Iam currently 
+                          working at the Athena Research Center, where iam involved in training foundation models for fire detection from satellite data. My primary research 
+                          interests include remote sensing and deep learning, with an emphasis on wildfire related applications.
+                          </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

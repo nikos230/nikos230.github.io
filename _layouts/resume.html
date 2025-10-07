@@ -116,23 +116,6 @@
       </section>
       <!-- end Projects -->
 
-       <!-- begin Publications -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Publications</h2>
-        </header>
-
-        {% for publications in site.data.publications %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ publications.url }}" itemprop="url">{{publications.publications }}</a>{% else %}{{ publications.publications }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ publications.role }} {{ publications.duration }}</h4>
-          <p class="resume-item-copy">{{ publications.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Publications -->
       
       {% endif %}
 
@@ -152,6 +135,23 @@
 
       </section>
       <!-- end Skills -->
+
+     <!-- begin Publications -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+        {% for publication in site.data.publication %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ publication.publication }}</h4>
+          <p class="resume-item-copy">{{ publication.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Publications -->
+      
       {% endif %}
 
       {% if site.resume_section_recognition %}

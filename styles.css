@@ -94,7 +94,7 @@ h1 {
 }
 
 .subtitle {
-  color: var(--muted);
+  color: var(--ink);
   font-size: 15px;
   max-width: 70ch;
   margin: 0;
@@ -253,4 +253,5 @@ section .download {
 
 section ul {
   max-width: 65ch;
+
 }

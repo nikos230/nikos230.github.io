@@ -1,0 +1,256 @@
+:root {
+  /* Light theme defaults */
+  --bg: #f4f5f7;
+  --paper: #ffffff;
+  --ink: #111827;
+  --muted: #4b5563;
+  --border: #e5e7eb;
+
+  --radius: 10px;
+  --max-width: 900px;
+
+  --sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --paper: #020617;
+  --ink: #e5e7eb;
+  --muted: #9ca3af;
+  --border: #1f2937;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.6;
+}
+
+/* Global text justification */
+p,
+li,
+.item-meta,
+.subtitle,
+.publication,
+.skills,
+.contact,
+.download {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Keep headings and UI elements aligned normally */
+h1,
+h2,
+.item-title,
+.item-date,
+#themeToggle,
+footer {
+  text-align: left;
+}
+
+
+
+/* Links: underline only on hover */
+a {
+  color: var(--ink);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 40px auto;
+  padding: 40px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+}
+
+header {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: start;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: 36px;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 70ch;
+  margin: 0;
+}
+
+.contact {
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.download {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.download a { color: var(--ink); }
+
+/* Dark mode button */
+#themeToggle {
+  justify-self: end;
+  align-self: start;
+  background: none;
+  border: 1px solid var(--border);
+  padding: 7px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--ink);
+  border-radius: 6px;
+}
+#themeToggle:hover {
+  background: var(--bg);
+}
+
+section {
+  margin-top: 36px;
+}
+
+section h2 {
+  font-family: var(--serif);
+  font-size: 22px;
+  margin: 0 0 16px 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+}
+
+.item {
+  margin-bottom: 22px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.item-meta {
+  color: var(--ink);
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.item-date {
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+ul {
+  margin: 8px 0 0 18px;
+}
+
+li {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.skills {
+  columns: 2;
+  column-gap: 40px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.skills div {
+  margin-bottom: 8px;
+  break-inside: avoid;
+}
+
+.publication {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+.publication strong { color: var(--ink); }
+.publication a { color: var(--ink); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media print {
+  body { background: white; }
+  .container {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  #themeToggle { display: none; }
+  a { color: black; text-decoration: none !important; }
+}
+
+@media (max-width: 760px) {
+  .container { padding: 24px; margin: 0; }
+  header { grid-template-columns: 1fr; }
+  #themeToggle { justify-self: start; }
+  .skills { columns: 1; }
+}
+
+
+
+.thesis-name {
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+}
+
+.thesis-title {
+  margin-top: 8px;     /* space above */
+  margin-bottom: 5px;  /* space below */
+}
+
+section p,
+section li,
+section .item-meta,
+section .publication,
+section .skills,
+section .contact,
+section .download {
+  max-width: 78ch;
+}
+
+section ul {
+  max-width: 65ch;
+}

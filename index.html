@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Curriculum Vitae</title>
+  <meta name="description" content="Curriculum Vitae of Your Name" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="container">
+
+    <!-- Header -->
+    <header>
+      <div>
+        <h1>Nikolaos Anastasiou</h1>
+        <p class="subtitle">
+          I received my diploma in Rural, Surveying and Geoinformatics Engineering 
+		  from the National Technical University of Athens in 2025. My diploma thesis 
+		  focused on the development and evaluation of deep learning models for wildfire 
+		  spread prediction using remote sensing data. I completed a three-month internship 
+		  at the National Observatory of Athens, focusing on Earth observation and wildfire mapping. 
+		  I am currently working at the Athena Research Center, where I am involved in 
+		  training foundation models for fire detection from satellite data. My primary 
+		  research interests include remote sensing and deep learning, with an emphasis 
+		  on wildfire-related applications.
+        </p>
+
+        <div class="contact">
+          <span>📍 Athens, Greece</span>
+          <span>✉️ <a href="mailto:nikolas619065@gmail.com">nikolas619065@gmail.com</a></span>
+          <span>🔗 <a href="https://github.com/nikos230" target="_blank" rel="noreferrer">github.com/nikos230</a></span>
+          <span>💼 <a href="https://www.linkedin.com/in/nikos-anastasiou/" target="_blank" rel="noreferrer">linkedin.com/in/nikos-anastasiou/</a></span>
+		  <span>📄 <a href="https://drive.google.com/file/d/10y6mSz97aUTh1fnORLB-rHqGnNQvhIK2/view?usp=drive_link" target="_blank" rel="noreferrer">Download CV (PDF)</a></span>
+        </div>
+
+      </div>
+
+      <button id="themeToggle" type="button" aria-label="Toggle dark mode">🌙 Dark mode</button>
+    </header>
+
+    <!-- Sections injected here -->
+    <div id="sections">
+      <div data-include="sections/experience.html"></div>
+      <div data-include="sections/education.html"></div>
+      <div data-include="sections/projects.html"></div>
+      <div data-include="sections/skills.html"></div>
+      <div data-include="sections/publications.html"></div>
+      <div data-include="sections/distinctions.html"></div>
+    </div>
+
+    <footer>
+      © <span id="year"></span> Your Name
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

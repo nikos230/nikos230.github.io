@@ -197,7 +197,7 @@ li {
 .publication {
   font-size: 14px;
   margin-bottom: 12px;
-  color: var(--muted);
+  color: var(--ink);
 }
 .publication strong { color: var(--ink); }
 .publication a { color: var(--ink); }
@@ -255,3 +255,4 @@ section ul {
   max-width: 65ch;
 
 }
+
